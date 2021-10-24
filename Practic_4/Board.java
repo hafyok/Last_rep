@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+//package com.company//вызывал ошибку, без него все работает
 
 class Board extends JFrame{
     int rm = 0;
