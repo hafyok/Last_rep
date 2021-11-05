@@ -1,5 +1,5 @@
 package com.company;
-
+//Выполнены задания 6, 7 и 9
 public class Main {
     public static int recursion_6(int n, int del) {
         // условие выхода
@@ -69,19 +69,7 @@ public class Main {
         return k;
     }
 
-    /*public static void recursion_10(int n){
-        if(n!=0){
-            int digit = n;
-            while(true){
-                if(digit/10 > 0){
-                    digit /=10;
-                }else break;
-            }
-            recursion_10(n/10);
-            System.out.print(digit);
-        }
-
-    }*/
+ 
     public static void main(String[] args) {
         int exer_1 = 103;
         System.out.println("Задание №6:\n"+"Число " + exer_1 + " простое? ");
